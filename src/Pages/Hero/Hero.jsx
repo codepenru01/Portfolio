@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import heroImg from "../../Assets/hero.jpg";
 import "./Hero.css";
 
 const Hero = () => {
@@ -10,7 +11,7 @@ const Hero = () => {
           <div className="hero">
             <div className="hero__img">
               <img
-                src="./src/Assets/hero.jpg"
+                src={heroImg}
                 alt="jpg"
                 width="300"
                 height="300"
