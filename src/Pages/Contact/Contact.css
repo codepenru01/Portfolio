@@ -1,0 +1,136 @@
+.contact {
+  padding: 40px 0;
+}
+
+.contact__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.contact__color {
+  color: aqua;
+}
+
+.formclassName {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact__head {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+#name {
+  border-radius: 30px;
+  border: 2px solid aqua;
+  padding-left: 20px;
+  width: 400px;
+  height: 70px;
+}
+
+#email {
+  border-radius: 30px;
+  border: 2px solid aqua;
+  padding-left: 20px;
+  width: 400px;
+  height: 70px;
+}
+
+.contact__body {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#number {
+  border-radius: 30px;
+  border: 2px solid aqua;
+  padding-left: 20px;
+  width: 400px;
+  height: 70px;
+}
+
+#subject {
+  border-radius: 30px;
+  border: 2px solid aqua;
+  padding-left: 20px;
+  width: 400px;
+  height: 70px;
+}
+
+#textarea {
+  border-radius: 30px;
+  border: 2px solid aqua;
+  padding-left: 20px;
+  padding-top: 20px;
+  text-transform: capitalize;
+  width: 830px;
+  height: 300px;
+}
+
+.btn__box {
+  text-align: center;
+}
+
+.contact__btn {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: aqua;
+  border: 5px solid black;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact__btn:hover {
+  box-shadow: 2px 2px 10px 5px green;
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 900px) {
+    #name {
+        width: 300px;
+    }
+
+    #email {
+        width: 300px;
+    }
+
+    #number {
+        width: 300px;
+    }
+
+    #subject {
+        width: 300px;
+    }
+
+    #textarea {
+        width: 730px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+  .contact__head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact__body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #textarea {
+    max-width: 290px;
+    height: 70px;
+  }
+}

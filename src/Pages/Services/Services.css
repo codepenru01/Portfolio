@@ -1,0 +1,59 @@
+.services-section {
+  background-color: pink;
+  padding: 40px 20px;
+}
+
+.services__all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.services__head {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.services__card {
+  margin: 10px;
+  padding: 40px 10px;
+  border: 2px solid black;
+}
+
+.fas {
+  font-size: 2rem;
+}
+
+.fas__w {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.fas__t {
+  margin-top: 20px;
+}
+
+.btn__bn {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: red;
+  border: 5px solid black;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn__bn:hover {
+  box-shadow: 2px 2px 10px 5px green;
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 900px) {
+  .services__all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
